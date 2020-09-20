@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MichiPlace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c46a5dc764.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="contact.html">Contacto</a>
+            <a href="about.html">Acerca de</a>
+            <a href="care.html">Cuidados</a>
+            <a href="#">¡Quiero adoptar!</a>
+        </nav>
+        <h1>MichiPlace</h1>
+    </header>
+    <div class="formu">
+        <form>
+            <strong><label for="name" id="name-label">Nombre</label></strong>
+            <input id="name" type="text" placeholder="Ejemplo: Jorge" required>
+
+            <br>
+            <br>
+            <strong><label for="email" id="email-label">Correo Electrónico</label></strong>
+            <input id="email" type="email" placeholder="Ejemplo: nombre@mail.com" required>
+            <br>
+            <br>
+            <strong><label for="number" id="number-label">Edad</label></strong>
+            <input id="number" type="number" placeholder="1" min="1" max="99">
+            <br>
+            <br>
+            <strong><label for="opciones" id="dropdown">¿Cuántos gatos podrías adoptar?</label></strong>
+            <br>
+            <br>
+            <select name="opciones" id="dropdown">
+                <option value="opcion1">1</option>
+                <option value="opcion2">2</option>
+                <option value="opcion3">3</option>
+                <option value="opcion4">Más de 3</option>
+            </select>
+            <br>
+            <br>
+            <strong><label>Género del animal</label></strong>
+            <label for="gato">
+                <br>
+                <br>
+                <input name="genero" type="checkbox">Masculino</label>
+
+            <label for="gata">
+                <input name="genero" type="checkbox">Femenino</label>
+            <br>
+            <br>
+
+            <strong><label>Edad del animal</label></strong>
+            <br>
+            <br>
+            <label for="bebe"><input id="bebe" type="checkbox"> Bebe</label>
+
+            <label for="cachorro"><input id="cachorro" type="checkbox"> Cachorro</label>
+
+            <label for="adulto"><input id="adulto" type="checkbox"> Adulto</label>
+            <br>
+            <br>
+            <strong><label for="comentarios">Comentarios</label></strong>
+            <br>
+            <br>
+            <textarea id="comentarios" rows=5 cols=68 placeholder="Envianos tu opinion..."></textarea>
+            <br>
+            <button id="submit" type="submit">Enviar solicitud</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <p>Todos los derechos reservados &copy;</p>
+        <a href=""><em><i class="fab fa-instagram icon"></i></em></a>
+        <a href=""><em><i class="fab fa-facebook icon"></i></em></a>
+        <a href=""><em><i class="fab fa-twitter icon"></i></em></a>
+    </footer>
+</body>
+
+</html>

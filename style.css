@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+}
+
+h1, footer {
+    text-align: center;
+    color: white;
+}
+
+header, footer {
+    background-color: blueviolet;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(93, 17, 163);
+    font-size: 20px;
+}
+
+
+.icon {
+    color: white;
+}
