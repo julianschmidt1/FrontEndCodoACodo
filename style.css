@@ -1,24 +1,143 @@
 * {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #507a48;
+}
+
+h1, footer{
+    color: white;
+}
+
+div {
+    display: block;
 }
 
 h1, footer {
     text-align: center;
+}
+
+h1, h3 {
+    margin-top: 2rem;
+    font-family: sans-serif;
     color: white;
 }
 
-header, footer {
-    background-color: blueviolet;
+h1 {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 0.5em;
 }
 
-nav a {
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+
+header {
+    display: block;
+}
+
+nav {
+    top: 0;
+    background-color: #41613b;
+    z-index: 10;
+}
+
+#banner {
+    height: 30vh;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 14px 16px;
     color: white;
     text-decoration: none;
-    background-color: rgb(93, 17, 163);
-    font-size: 20px;
 }
+
+li a:hover{
+    transition: ease 0.7s;
+    background-color: #35552f;
+}
+
+.section1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: #6a9e60;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.section1 p {
+    width: 80%;
+    text-align: left;
+    display: block;
+    padding: 15px 14px;
+    font-size: 18px;
+}
+
+.section1 h3{
+    text-align: center;
+}
+
+.subt{
+    font-size: 24px;
+}
+
+.logo{
+    height: 50px;
+    float: left;
+}
+
+
 
 
 .icon {
     color: white;
+    font-size: 20px;
+    padding: 4px;
+    transition: color 0.5s ease;
+}
+
+.icon:hover{
+    font-size: 25px;
+}
+
+footer{
+   height: 12vh;
+   background-color: #41613b;
+   display: block;
+   padding: 9px;
+}
+
+.formu{
+    margin-left: 25%;
+    
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 5px;
+    display: flex;
 }
